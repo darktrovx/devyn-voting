@@ -1,0 +1,71 @@
+.voting-container {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50vh;
+    width: 40vh;
+    background-color: #212428;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.election {
+    text-align: center;
+}
+.election-header {
+    font-size: 30px;
+}
+
+.nominees {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-check .form-check-input {
+    float: none !important;
+}
+
+.vote-buttons {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.vote-submit {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+
+.vote-admin {
+    position: fixed;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #343a40; 
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #1b36ff; 
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #2c44f8; 
+}
